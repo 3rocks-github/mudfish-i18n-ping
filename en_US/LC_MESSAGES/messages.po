@@ -1,0 +1,258 @@
+# Translations template for Mudfish MyIP Homepage.
+# Copyright (C) 2021 Mudfish Networks Inc.
+# This file is distributed under the same license as the Mudfish MyIP
+# Homepage project.
+# 
+# Translators:
+# weongyo <weongyo@gmail.com>, 2015-2017,2021
+msgid ""
+msgstr ""
+"Project-Id-Version: mudfish\n"
+"Report-Msgid-Bugs-To: weongyo@gmail.com\n"
+"POT-Creation-Date: 2021-01-04 22:56+0900\n"
+"PO-Revision-Date: 2021-01-04 13:57+0000\n"
+"Last-Translator: weongyo <weongyo@gmail.com>\n"
+"Language-Team: English (United States) (http://www.transifex.com/mudfish/mudfish/language/en_US/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ping.py:126 src/ping.py:154 src/ping.py:205
+msgid "중계 서버 정보를 읽지 못하였습니다."
+msgstr "Failed to load Mudfish node information."
+
+#: src/ping.py:137 src/ping.py:145 src/ping.py:176
+msgid "잘못된 IP 주소 형식입니다."
+msgstr "Invalid IP address format."
+
+#: src/ping.py:142 src/ping.py:173
+#, python-format
+msgid ""
+"입력하신 IP 는 Private IP 입니다.  Public IP 를 입력해 주세요.  참고로 당신의 Public IP 는 "
+"%(remote_addr)s 입니다."
+msgstr "It's private IP address.  Please type public IP address for testing.  Your current public IP is %(remote_addr)s."
+
+#: src/ping.py:168
+msgid "잘못된 IP 주소 / 포트 형식입니다."
+msgstr "Wrong IP address / port format."
+
+#: templates/common/footer.html:5
+msgid "이용약관"
+msgstr "Terms Of Service"
+
+#: templates/common/footer.html:7
+msgid "개인정보 보호정책"
+msgstr "Privacy Policy"
+
+#: templates/common/footer.html:12
+msgid "무엇을 도와드릴까요?"
+msgstr "Contact Us"
+
+#: templates/common/footer.html:13
+msgid "회사 연락을 원하신다면 support@loxch.com 으로 연락주시면 됩니다."
+msgstr "To contact us, please send a email to support@loxch.com"
+
+#: templates/common/footer.html:14
+msgid "문의하기"
+msgstr "Contact Us"
+
+#: templates/common/footer.html:16
+msgid "사람을 찾습니다!"
+msgstr "We're hiring!"
+
+#: templates/common/footer.html:20
+msgid "대표: 한미정"
+msgstr "CEO: Mijung Han"
+
+#: templates/common/footer.html:20
+msgid "대표번호: (02) 2659-0823"
+msgstr "Phone: +82-2-2659-0823"
+
+#: templates/common/footer.html:21
+msgid "팩스: (02) 2659-0824"
+msgstr "Fax: +82-2-2659-0824"
+
+#: templates/common/footer.html:22
+msgid "사업자등록번호"
+msgstr "Business License"
+
+#: templates/common/footer.html:23
+msgid "주소: 서울 강서구 마곡중앙로 165 (마곡동, 안강프라이빗타워) 8층 803호"
+msgstr "Address: 8F #803, 165, Magokjungang-ro, Gangseo-gu, Seoul, 07788, South Korea"
+
+#: templates/common/footer.html:26
+msgid "미꾸라지 네트웍스"
+msgstr "Mudfish Networks"
+
+#: templates/common/header.html:13
+msgid "미꾸라지"
+msgstr "MUDFISH"
+
+#: templates/common/header.html:19
+msgid "홈"
+msgstr "Home"
+
+#: templates/common/header.html:26
+msgid "포럼"
+msgstr "Forum"
+
+#: templates/common/header.html:31 templates/common/header.html:42
+msgid "문서"
+msgstr "Document"
+
+#: templates/common/header.html:38
+msgid "기타"
+msgstr "Miscellaneous"
+
+#: templates/common/header.html:50
+msgid "도구들"
+msgstr "Tools"
+
+#: templates/common/header.html:54
+msgid "나의 IP는?"
+msgstr "What's My IP?"
+
+#: templates/common/header.html:60
+msgid "이미지 업로드"
+msgstr "Image Uploader"
+
+#: templates/common/top.html:9
+msgid "미꾸라지: 핑"
+msgstr "MUDFISH: Ping"
+
+#: templates/www/dns_lookup_start.html:3 templates/www/ping_start.html:3
+#: templates/www/tcp_ping_start.html:3
+msgid "대상"
+msgstr "Target"
+
+#: templates/www/dns_lookup_start.html:9 templates/www/ping_start.html:14
+#: templates/www/tcp_ping_start.html:14
+msgid "위치"
+msgstr "Location"
+
+#: templates/www/dns_lookup_start.html:10 templates/www/ping_start.html:15
+#: templates/www/tcp_ping_start.html:15
+msgid "공개 IP"
+msgstr "Public IP"
+
+#: templates/www/dns_lookup_start.html:11 templates/www/ping_start.html:16
+#: templates/www/tcp_ping_start.html:16
+msgid "결과"
+msgstr "Result"
+
+#: templates/www/dns_lookup_start.html:12
+msgid "CNAME"
+msgstr "CNAME"
+
+#: templates/www/dns_lookup_start.html:13
+msgid "A"
+msgstr "A"
+
+#: templates/www/index.html:139
+msgid "기술 문서"
+msgstr "Documents"
+
+#: templates/www/index.html:150
+msgid ""
+"\n"
+"\t  '미꾸라지 중계 서버 &harr;입력하신 IP' 간의 ICMP RTT 을 측정합니다.\n"
+"\t  "
+msgstr "\nIt measures ICMP RTT between Mudfish nodes using IP address you typed."
+
+#: templates/www/index.html:160
+msgid "IPv4 / IPv6 주소"
+msgstr "IPv4 / IPv6 address"
+
+#: templates/www/index.html:166 templates/www/index.html:194
+#: templates/www/index.html:221 templates/www/index.html:319
+#: templates/www/index.html:348 templates/www/index.html:371
+msgid "시작"
+msgstr "Start"
+
+#: templates/www/index.html:177
+msgid ""
+"\n"
+"\t  '미꾸라지 중계 서버 &harr;입력하신 IP' 간의 TCP 프로토콜을 이용하여\n"
+"\t  RTT 을 측정합니다.\n"
+"\t  "
+msgstr "\nIt measures TCP based RTT between Mudfish nodes using IP address and port you typed."
+
+#: templates/www/index.html:188
+msgid "<IP주소>:<포트>"
+msgstr "<IP address>:<Port>"
+
+#: templates/www/index.html:205
+msgid ""
+"\n"
+"\t  미꾸라지 중계 서버상에서 DNS Resolving 한 결과를 보여줍니다.\n"
+"\t  "
+msgstr "\nIt shows the result of DNS resolving on mudfish nodes."
+
+#: templates/www/index.html:215
+msgid "도메인 이름"
+msgstr "Domain Name"
+
+#: templates/www/index.html:231
+msgid "중계 서버 목록"
+msgstr "The mudfish nodes"
+
+#: templates/www/index.html:236
+msgid "전체 선택"
+msgstr "Select All"
+
+#: templates/www/index.html:238
+msgid "국가별 선택"
+msgstr "Select by country"
+
+#: templates/www/index.html:240
+msgid "전체 해제"
+msgstr "Clear All"
+
+#: templates/www/index.html:242
+msgid "국가 코드"
+msgstr "Country Code"
+
+#: templates/www/index.html:256
+msgid "선택된 중계 서버 갯수:"
+msgstr "Number of nodes selected:"
+
+#: templates/www/index.html:305
+msgid "IP 주소를 입력해 주세요."
+msgstr "Please type a IP address."
+
+#: templates/www/index.html:310 templates/www/index.html:339
+#: templates/www/index.html:364
+msgid "테스트할 중계 서버를 선택해 주세요."
+msgstr "Please select the nodes to be tested."
+
+#: templates/www/index.html:314 templates/www/index.html:343
+#: templates/www/index.html:367
+msgid "시작중..."
+msgstr "Starting..."
+
+#: templates/www/index.html:330
+msgid "IP 주소와 포트를 입력해 주세요."
+msgstr "Please type a IP address and port."
+
+#: templates/www/index.html:334
+msgid "IP 주소와 포트 형식이 올바르지 않습니다."
+msgstr "Wrong IP address / port format."
+
+#: templates/www/index.html:359
+msgid "도메인 주소를 입력해 주세요."
+msgstr "Type domain name here."
+
+#: templates/www/ping_start.html:17 templates/www/tcp_ping_start.html:17
+msgid "RTT 최소"
+msgstr "RTT Min."
+
+#: templates/www/ping_start.html:18 templates/www/tcp_ping_start.html:18
+msgid "RTT 평균"
+msgstr "RTT Avg."
+
+#: templates/www/ping_start.html:19 templates/www/tcp_ping_start.html:19
+msgid "RTT 최대"
+msgstr "RTT Max."

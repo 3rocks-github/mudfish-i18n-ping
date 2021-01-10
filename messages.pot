@@ -1,0 +1,257 @@
+# Translations template for Mudfish MyIP Homepage.
+# Copyright (C) 2021 Mudfish Networks Inc.
+# This file is distributed under the same license as the Mudfish MyIP
+# Homepage project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mudfish MyIP Homepage 1.0\n"
+"Report-Msgid-Bugs-To: weongyo@gmail.com\n"
+"POT-Creation-Date: 2021-01-04 22:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: src/ping.py:126 src/ping.py:154 src/ping.py:205
+msgid "중계 서버 정보를 읽지 못하였습니다."
+msgstr ""
+
+#: src/ping.py:137 src/ping.py:145 src/ping.py:176
+msgid "잘못된 IP 주소 형식입니다."
+msgstr ""
+
+#: src/ping.py:142 src/ping.py:173
+#, python-format
+msgid ""
+"입력하신 IP 는 Private IP 입니다.  Public IP 를 입력해 주세요.  참고로 당신의 Public IP 는 "
+"%(remote_addr)s 입니다."
+msgstr ""
+
+#: src/ping.py:168
+msgid "잘못된 IP 주소 / 포트 형식입니다."
+msgstr ""
+
+#: templates/common/footer.html:5
+msgid "이용약관"
+msgstr ""
+
+#: templates/common/footer.html:7
+msgid "개인정보 보호정책"
+msgstr ""
+
+#: templates/common/footer.html:12
+msgid "무엇을 도와드릴까요?"
+msgstr ""
+
+#: templates/common/footer.html:13
+msgid "회사 연락을 원하신다면 support@loxch.com 으로 연락주시면 됩니다."
+msgstr ""
+
+#: templates/common/footer.html:14
+msgid "문의하기"
+msgstr ""
+
+#: templates/common/footer.html:16
+msgid "사람을 찾습니다!"
+msgstr ""
+
+#: templates/common/footer.html:20
+msgid "대표: 한미정"
+msgstr ""
+
+#: templates/common/footer.html:20
+msgid "대표번호: (02) 2659-0823"
+msgstr ""
+
+#: templates/common/footer.html:21
+msgid "팩스: (02) 2659-0824"
+msgstr ""
+
+#: templates/common/footer.html:22
+msgid "사업자등록번호"
+msgstr ""
+
+#: templates/common/footer.html:23
+msgid "주소: 서울 강서구 마곡중앙로 165 (마곡동, 안강프라이빗타워) 8층 803호"
+msgstr ""
+
+#: templates/common/footer.html:26
+msgid "미꾸라지 네트웍스"
+msgstr ""
+
+#: templates/common/header.html:13
+msgid "미꾸라지"
+msgstr ""
+
+#: templates/common/header.html:19
+msgid "홈"
+msgstr ""
+
+#: templates/common/header.html:26
+msgid "포럼"
+msgstr ""
+
+#: templates/common/header.html:31 templates/common/header.html:42
+msgid "문서"
+msgstr ""
+
+#: templates/common/header.html:38
+msgid "기타"
+msgstr ""
+
+#: templates/common/header.html:50
+msgid "도구들"
+msgstr ""
+
+#: templates/common/header.html:54
+msgid "나의 IP는?"
+msgstr ""
+
+#: templates/common/header.html:60
+msgid "이미지 업로드"
+msgstr ""
+
+#: templates/common/top.html:9
+msgid "미꾸라지: 핑"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:3 templates/www/ping_start.html:3
+#: templates/www/tcp_ping_start.html:3
+msgid "대상"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:9 templates/www/ping_start.html:14
+#: templates/www/tcp_ping_start.html:14
+msgid "위치"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:10 templates/www/ping_start.html:15
+#: templates/www/tcp_ping_start.html:15
+msgid "공개 IP"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:11 templates/www/ping_start.html:16
+#: templates/www/tcp_ping_start.html:16
+msgid "결과"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:12
+msgid "CNAME"
+msgstr ""
+
+#: templates/www/dns_lookup_start.html:13
+msgid "A"
+msgstr ""
+
+#: templates/www/index.html:139
+msgid "기술 문서"
+msgstr ""
+
+#: templates/www/index.html:150
+msgid ""
+"\n"
+"\t  '미꾸라지 중계 서버 &harr;입력하신 IP' 간의 ICMP RTT 을 측정합니다.\n"
+"\t  "
+msgstr ""
+
+#: templates/www/index.html:160
+msgid "IPv4 / IPv6 주소"
+msgstr ""
+
+#: templates/www/index.html:166 templates/www/index.html:194
+#: templates/www/index.html:221 templates/www/index.html:319
+#: templates/www/index.html:348 templates/www/index.html:371
+msgid "시작"
+msgstr ""
+
+#: templates/www/index.html:177
+msgid ""
+"\n"
+"\t  '미꾸라지 중계 서버 &harr;입력하신 IP' 간의 TCP 프로토콜을 이용하여\n"
+"\t  RTT 을 측정합니다.\n"
+"\t  "
+msgstr ""
+
+#: templates/www/index.html:188
+msgid "<IP주소>:<포트>"
+msgstr ""
+
+#: templates/www/index.html:205
+msgid ""
+"\n"
+"\t  미꾸라지 중계 서버상에서 DNS Resolving 한 결과를 보여줍니다.\n"
+"\t  "
+msgstr ""
+
+#: templates/www/index.html:215
+msgid "도메인 이름"
+msgstr ""
+
+#: templates/www/index.html:231
+msgid "중계 서버 목록"
+msgstr ""
+
+#: templates/www/index.html:236
+msgid "전체 선택"
+msgstr ""
+
+#: templates/www/index.html:238
+msgid "국가별 선택"
+msgstr ""
+
+#: templates/www/index.html:240
+msgid "전체 해제"
+msgstr ""
+
+#: templates/www/index.html:242
+msgid "국가 코드"
+msgstr ""
+
+#: templates/www/index.html:256
+msgid "선택된 중계 서버 갯수:"
+msgstr ""
+
+#: templates/www/index.html:305
+msgid "IP 주소를 입력해 주세요."
+msgstr ""
+
+#: templates/www/index.html:310 templates/www/index.html:339
+#: templates/www/index.html:364
+msgid "테스트할 중계 서버를 선택해 주세요."
+msgstr ""
+
+#: templates/www/index.html:314 templates/www/index.html:343
+#: templates/www/index.html:367
+msgid "시작중..."
+msgstr ""
+
+#: templates/www/index.html:330
+msgid "IP 주소와 포트를 입력해 주세요."
+msgstr ""
+
+#: templates/www/index.html:334
+msgid "IP 주소와 포트 형식이 올바르지 않습니다."
+msgstr ""
+
+#: templates/www/index.html:359
+msgid "도메인 주소를 입력해 주세요."
+msgstr ""
+
+#: templates/www/ping_start.html:17 templates/www/tcp_ping_start.html:17
+msgid "RTT 최소"
+msgstr ""
+
+#: templates/www/ping_start.html:18 templates/www/tcp_ping_start.html:18
+msgid "RTT 평균"
+msgstr ""
+
+#: templates/www/ping_start.html:19 templates/www/tcp_ping_start.html:19
+msgid "RTT 최대"
+msgstr ""
+
